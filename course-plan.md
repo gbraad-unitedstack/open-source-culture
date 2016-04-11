@@ -65,12 +65,18 @@ Dealing with issues
 Asking questions
     * the smart way
 How to get involved
+    * "Do good things and talk about it"
+        * documentation
+        * presentation
+    * attribution (you, company) ?
     * code contributions
         * when (roadmap)
             * incremental
         * break up in features / functions (incremental)
             * progress tracking
     * code reviews
+        * internal (informal)
+        * external (gated)
         * first offer passing / failing tests ?
     * mailinglists
         * email guidelines
