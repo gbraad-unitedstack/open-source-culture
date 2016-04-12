@@ -11,7 +11,6 @@
 ## History
 ### Free Software Movement
 
-
 Note: The difference between free and open.
 
 ---
@@ -22,8 +21,8 @@ Note: The difference between free and open.
 ---
 
 ## History
-## 1983
-### Richard Stallman publishes the GNU Manifesto
+### 1983
+Richard Stallman publishes the GNU Manifesto
 
 Note: explanation and definition of the goals of the GNU Project
 
@@ -37,8 +36,8 @@ Note: users are free to run the software, share it (copy, distribute), study it 
 ---
 
 ## History
-## 1989
-### First version of the GNU General Public License
+### 1989
+First version of the GNU General Public License
 
 Note: gives permission to modify the work, as well as to copy and redistribute the work or any derivative version
 
@@ -57,6 +56,7 @@ Note: gives permission to modify the work, as well as to copy and redistribute t
 ### study how the program works, and change it so it does your computing as you wish (freedom 1).
 
 Note: Access to the source code is a precondition for this.
+
 ---
 
 ## The freedom to
@@ -77,8 +77,8 @@ Note: Access to the source code is a precondition for this.
 ---
 
 ## History
-## 1991
-### Linux is announced as a hobby project
+### 1991
+Linux is announced as a hobby project
 
 ```
 I’m doing a (free) operating system (just a hobby, won’t be big and 
@@ -95,6 +95,6 @@ Note: frustrated by the licensing of MINIX. https://groups.google.com/d/msg/comp
 
 ## History
 ### 1992
-### Linux relicensed under the GPL
+Linux relicensed under the GPL
 
 Note: his original license prohibited commercial redistribution. Naming controversy => GNU/Linux
