@@ -238,10 +238,28 @@ Note: exceptions can exist
   * security problems
   * quality coverage
 
+Note: backporting can become painful over time (or even impossible and conflicting)
+
 ---
 
+## Upstream
+### Advantages to 'upstreaming'
+  * Common Benefit and Reduced Maintenance Burden
+  * Documentation (formal and informal)
+  * Translations
+  * Quality Assurance
+  * Fast incremental improvements
+  * User feedback
 
+---
 
+## Upstream
+### Advantages to 'upstreaming'
+  * Common knowledgebase
+  * Marketing
+  * Trust and confidence
+
+Note: prevents knowledge assymmetry between project and provider and/or provider and customer.
 
 ---
 
