@@ -8,6 +8,7 @@ Reference material
 * Online material: http://www.theopensourceway.org/book/The_Open_Source_Way-Stuff_everyone_knows_and_forgets_anyway.html
 * Online material: http://catb.org/~esr/faqs/smart-questions.html
 * Online material: https://wiki.openstack.org/wiki/How_To_Contribute
+* Online material: http://fedoraproject.org/wiki/Staying_close_to_upstream_projects
 * Book: Pro Git https://git-scm.com/book/zh/v2 (ebook available)
 
 
