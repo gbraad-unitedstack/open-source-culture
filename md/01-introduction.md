@@ -98,3 +98,54 @@ Note: frustrated by the licensing of MINIX. https://groups.google.com/d/msg/comp
 Linux relicensed under the GPL
 
 Note: his original license prohibited commercial redistribution. Naming controversy => GNU/Linux
+
+---
+
+## Relicensing allowed to create a 'commercial' version
+
+Note: triggered adoption by enterprise market; they could get support in the form of services.
+
+----
+
+## Red Hat starts selling support contracts
+
+---
+
+## Ambiguous use of 'free'
+### Eric S Raymond, et al introduce a new term
+
+---
+
+## Open Source
+
+---
+
+## Open Source
+### clearly explains the intention of freedom to study
+
+Note: cultural issues between use of the terms 'free' and 'open'. Source code is 'freely' available to see.
+
+---
+
+## Open Source
+### is an ideology / way of doing
+promotes collaboration/sharing of ideas
+
+Note: the licensing promotes the re-use of material
+
+---
+
+## Open Source
+### is not only about software
+  * Open Hardware
+  * Open CourseWare (MIT)
+  * Wikipedia (CC-licensed)
+
+---
+
+## Open Core
+### Open Source for the core
+### Addons are commercially sold
+
+Note: licensing is often not ideal to allow re-use of the corein other projects
+
