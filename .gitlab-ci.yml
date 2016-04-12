@@ -3,6 +3,8 @@ pages:
   - apt-get update
   - apt-get install -y pandoc
   - pandoc -w revealjs --template template/reveal-slides-template.html --no-highlight -o index.html ./md/index.md
+  - pandoc -w revealjs --template template/reveal-slides-template.html --no-highlight -o 01-introduction.html ./md/01-introduction.md
+  - pandoc -w revealjs --template template/reveal-slides-template.html --no-highlight -o 02-cultural-challenges.html ./md/02-cultural-challenges.md
   - mkdir .public
   - cp -r * .public
   - mv .public public
