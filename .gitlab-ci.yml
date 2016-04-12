@@ -1,3 +1,5 @@
+image: ubuntu:trusty
+
 pages:
   script:
   - apt-get update
