@@ -213,7 +213,28 @@ customer is dependent on a vendor for products and services
 
 ---
 
+## Upstream
+the original authors or maintainers of software.
 
+Note: patch 'sent upstream' offered to the author for inclusion.
+
+---
+
+## Upstream
+### Downstream deviations
+  * patches
+  * aditional sources
+  * different dependencies
+  * configuration options
+
+---
+
+## Upstream
+### Deviatons can lead to issues
+  * maintenance problems
+  * documentation
+  * security problems
+  * quality assurance
 
 ---
 

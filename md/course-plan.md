@@ -33,6 +33,11 @@ Outline
             * easy to use
                 * compare to still currently how to deploy Ruby or Python
                     * we need a PaaS ?!???
+* advantages
+    * myths: http://www.zdnet.com/article/six-open-source-security-myths-debunked-and-eight-real-challenges-to-consider/
+* disadvantages
+* upstream  
+    * http://fedoraproject.org/wiki/Staying_close_to_upstream_projects
 
 
 ### What is Open Source
