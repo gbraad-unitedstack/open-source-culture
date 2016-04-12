@@ -143,9 +143,97 @@ Note: the licensing promotes the re-use of material
 
 ---
 
+## Successful projects
+  * Mozilla Firefox  
+    1998, Netscape open source
+  * LibreOffice  
+    2010, forked from OpenOffice
+  * Apache HTTP Server
+  * OpenStack
+
+Note: Star Office was open sourced as OpenOffice in 2000 by Sun.
+
+---
+
+## Successful companies
+  * Red Hat 
+  * MySQL
+  * JBoss
+  * SuSE, Novell
+  * Xensource
+  * Mirantis
+
+Note: some of these companies have been acquired
+
+---
+
+## LAMP
+### web service solution stack
+
+Note: become popular because it is entirely free and open-source software
+  * interchange without vendor lockin
+  * 'free of cost' popularized it
+
+---
+
+## LAMP
+### consists of
+  * Linux operating system
+  * Apache HTTP Server
+  * MySQL database
+  * PHP programming language
+
+Note: variants exist, but the eas of use of the components, such as mod_php allowed rapid application development
+
+---
+
+## Reasons for adotion
+  * lower cost
+  * security
+  * no vendor 'lock in'
+  * better quality
+
+Note: security and better quality comes from the idea 'many eyes makes for secure code'. quality comes from practices such as 'code review'.
+
+---
+
+## Lower cost
+Often mistaken as 'free of cost'.  
+Charged in the form of services or  support.
+
+Note: Even if the source code is available at no charge, there is still a cost involved with maintenance and training of staff.
+
+---
+
+## Vendor 'lockin'
+customer is dependent on a vendor for products and services
+  * network equipment
+  * proprietary formats
+  * camera lenses
+
+---
+
+
+
+---
+
 ## Open Core
 ### Open Source for the core
 ### Addons are commercially sold
 
 Note: licensing is often not ideal to allow re-use of the corein other projects
 
+---
+
+## Advantages
+  * purely technical requirement
+  * can lead to industry standard
+  * lowers cost of marketing
+
+---
+
+## Disadvantages
+  * possible neglect of documentation
+  * possibility of untested code
+
+Note: large projects enforce documentation and reviewing.
