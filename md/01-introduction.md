@@ -227,14 +227,21 @@ Note: patch 'sent upstream' offered to the author for inclusion.
   * different dependencies
   * configuration options
 
+Note: exceptions can exist
+
 ---
 
 ## Upstream
-### Deviatons can lead to issues
+### Deviations can lead to issues
   * maintenance problems
-  * documentation
+  * documentation inconsistency
   * security problems
-  * quality assurance
+  * quality coverage
+
+---
+
+
+
 
 ---
 
