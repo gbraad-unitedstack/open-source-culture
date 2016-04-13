@@ -165,7 +165,7 @@ variants exist, but the ease of use of the components allowed rapid application 
   * no vendor 'lock in'
   * better quality
 
-security and better quality comes from the idea 'many eyes makes for secure code'.
+security and better quality comes from the idea 'given enough eyeballs, all bugs are shallow'.
 
 quality comes from practices such as 'code review'.
 
