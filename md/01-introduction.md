@@ -68,11 +68,11 @@ I’m doing a (free) operating system (just a hobby, won’t be big and
 professional like gnu) for 386(486) AT clones.
 ```
 
+frustrated by the licensing and design of MINIX
+
 ```
 Yes - it's free of any minix code, and it has a multi-threaded fs.
 ```
-
-frustrated by the licensing of MINIX
 
 
 ## 1992
