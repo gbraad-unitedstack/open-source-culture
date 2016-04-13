@@ -1,29 +1,3 @@
-.reveal h1,
-.reveal h2,
-.reveal h3,
-.reveal h4,
-.reveal h5,
-.reveal h6 {
-	color: white;
-}
-
-.reveal ul { 
-  display: block;
-  list-style-type: circle;
-}
-
-.reveal ol {
-  display: block;
-}
-
-.reveal ul li {
-  list-style-type: circle;
-}
-
-.reveal .slides {
-  text-align: left;
-}
-
 .reveal .progress span {
 	background: rgb(255, 140, 0);
 }
