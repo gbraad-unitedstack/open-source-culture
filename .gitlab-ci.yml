@@ -4,9 +4,9 @@ pages:
   script:
   - apt-get update
   - apt-get install -y pandoc
-  - pandoc -w revealjs --template template/reveal-slides-template.html --no-highlight -o index.html ./md/index.md
-  - pandoc -w revealjs --template template/reveal-slides-template.html --no-highlight -o 01-introduction.html ./md/01-introduction.md
-  - pandoc -w revealjs --template template/reveal-slides-template.html --no-highlight -o 02-cultural-aspects.html ./md/02-cultural-aspects.md
+  - pandoc -t html5 --template template/reveal-slides-template.html --standalone --section-divs -o index.html ./md/index.md
+  - pandoc -t html5 --template template/reveal-slides-template.html --standalone --section-divs -o 01-introduction.html ./md/01-introduction.md
+  - pandoc -t html5 --template template/reveal-slides-template.html --standalone --section-divs -o 02-cultural-aspects.html ./md/02-cultural-aspects.md
   - mkdir .public
   - cp -r * .public
   - mv .public public

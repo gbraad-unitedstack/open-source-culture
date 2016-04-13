@@ -29,3 +29,7 @@
 
 .reveal .controls div.navigate-down.enabled:hover {
   border-top-color: #f3d7ac; }
+  
+.reveal h1 {
+  font-size: 1.8em;
+}
