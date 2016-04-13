@@ -148,8 +148,7 @@ Became popular because it is entirely free and open-source software
   * 'free of cost' popularized it
 
 
-## LAMP
-consists of
+## LAMP consists of
 
   * Linux operating system
   * Apache HTTP Server
@@ -212,7 +211,7 @@ Deviations can lead to issues
   * quality coverage
 
 
-### Backporting
+## Backporting
 merge fixes to a different version
 
 can become painful over time (or even impossible and conflicting)
