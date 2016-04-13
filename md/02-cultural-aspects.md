@@ -84,17 +84,28 @@ Even within Asia countries have different cultural characteristics
 
 ## Organizational cutlture
 
-* means-oriented vs goals-oriented
-* easy going vs strict work discipline
-* etc.
+  * means-oriented vs goals-oriented
+  * easy going vs strict work discipline
+  * etc.
 
 ---
 
 ## Open Source project
 
-* organizational culture
-* Why we do certain things
-  * avoid conflicts
+  * organizational culture
+  * Why we do certain things
+    * avoid conflicts
+
+---
+
+## Project communication
+
+  * main language often English
+  * language often not a barrier
+    * e-mail
+    * mailinglist
+
+Note: the slow(er) nature of using email allows you to understand/think. English can prove a problem during IRC and face-to-face situations.
 
 ---
 
