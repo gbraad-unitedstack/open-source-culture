@@ -7,6 +7,7 @@ pages:
   - pandoc -t html5 --template template/reveal-slides-template.html --standalone --section-divs -o index.html ./md/index.md
   - pandoc -t html5 --template template/reveal-slides-template.html --standalone --section-divs -o 01-introduction.html ./md/01-introduction.md
   - pandoc -t html5 --template template/reveal-slides-template.html --standalone --section-divs -o 02-cultural-aspects.html ./md/02-cultural-aspects.md
+  - pandoc -t html5 --template template/reveal-slides-template.html --standalone --section-divs -o 03-communities.html ./md/03-communities.md
   - mkdir .public
   - cp -r * .public
   - mv .public public
