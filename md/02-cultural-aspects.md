@@ -82,7 +82,7 @@ Even within Asia countries have different cultural characteristics
 
 ---
 
-## Organisational cutlture
+## Organizational cutlture
 
 * means-oriented vs goals-oriented
 * easy going vs strict work discipline
@@ -93,6 +93,8 @@ Even within Asia countries have different cultural characteristics
 ## Open Source project
 
 * organizational culture
+* Why we do certain things
+  * avoid conflicts
 
 ---
 
