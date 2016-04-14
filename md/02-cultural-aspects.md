@@ -3,15 +3,18 @@
 ### Cultural aspects
 
 
-## What makes F/OSS projects more difficult to manage?
+## What makes F/OSS projects more difficult
+
   * Often involve global virtual teams
 
 
 ## Be aware of cultural differences
+
   * Issues in Cross-cultural communication
 
 
 ## Cultural Dimensions
+
   Geert Hofstede describes 
   characteristics of a culture
 
@@ -62,28 +65,28 @@ or misunderstandings
 
 
 ## Asian cultures
-vastly different from Western cultures
+Vastly different from Western cultures
 
 Even within Asia countries have different cultural characteristics
 
 
 ## Organizational cutlture
 
-  * means-oriented vs goals-oriented
-  * easy going vs strict work discipline
+  * Means-oriented vs Goals-oriented
+  * Easy going vs Strict work discipline
   * etc.
 
 
 ## Open Source project
 
-  * organizational culture
+  * Organizational culture
   * Why we do certain things
     * avoid conflicts
 
 
 ## Project communication
 
-  * main language often English
+  * Main language often English
   * language often not a barrier
     * e-mail
     * mailinglist
@@ -91,7 +94,7 @@ Even within Asia countries have different cultural characteristics
 
 ## Use email to your benefit
 
-the slow(er) nature of using email allows you to understand/think.
+The slow(er) nature of using email allows you to understand/think.
 
 English can prove a problem during IRC and face-to-face situations.
 
@@ -99,3 +102,7 @@ English can prove a problem during IRC and face-to-face situations.
 ## Learn more
 
   * Fons Trompenaars' Cultural Diversity
+
+
+## Communities
+Continue to [Communities](./03-communities.html)

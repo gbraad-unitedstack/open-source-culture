@@ -212,9 +212,9 @@ Deviations can lead to issues
 
 
 ## Backporting
-merge fixes to a different version
+Merge fixes to a different version
 
-can become painful over time (or even impossible and conflicting)
+Can become painful over time (or even impossible and conflicting)
 
 
 ## Upstream
@@ -246,16 +246,40 @@ prevents knowledge assymmetry between project and provider and/or provider and c
 licensing is often not ideal to allow re-use of the corein other projects
 
 
-## Advantages of doing OSS
+### What makes F/OSS projects more difficult
 
-  * purely technical requirement
-  * can lead to industry standard
-  * lowers cost of marketing
+  * Often involve global virtual teams
+    * Cultural differences
+  * Uneven distribution of skill sets
+    * Developer-dominated
+    * Technical-focused
 
 
-## Disadvantages of doing OSS
+## What makes F/OSS projects more difficult
 
-  * possible neglect of documentation
+  * Gender bias and stereotypes
+    * Male-dominated
+    * Female-unfriendly environment
+  * Knowledge-sharing challenges
+    * Lack of informal socialisation
+    * weak team climate
+    * lack of trust and respect
+
+
+## Advantages of doing F/OSS
+
+  * Purely technical requirement
+  * Can lead to industry standard
+  * Lowers cost of marketing
+
+
+## Disadvantages of doing F/OSS
+
+  * Possible neglect of documentation
   * possibility of untested code
 
-large projects enforce documentation and reviewing.
+Large projects enforce documentation and reviewing.
+
+
+## Cultural aspects
+Continue to [Cultural aspects](./02-cultural-aspects.html)

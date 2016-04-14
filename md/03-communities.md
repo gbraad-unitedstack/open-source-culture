@@ -14,7 +14,9 @@ a group of people having common interests
     * debian
     * Fedora
     * Ubuntu
-  * Node.js
+  * programming languages
+    * Node.js
+    * python
   * OpenStack
 
 
@@ -36,4 +38,5 @@ a group of people having common interests
   * mission
 
 
-## 
+## Contributing
+Continue to [Contributing](./04-contributing.html)
