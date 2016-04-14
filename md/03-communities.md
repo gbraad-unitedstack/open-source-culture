@@ -30,6 +30,7 @@ a group of people having common interests
 
 ## Can be defined as ...
 A group of people collaborating, sharing code, documentation and ideas
+
   * while working together on Free / Open Source Software
   * as a user, developer, evangelist, marketeer, salespeople, etc.
 
