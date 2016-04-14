@@ -20,17 +20,66 @@ a group of people having common interests
   * OpenStack
 
 
-## Differences
+## No common definition
 
+  * 'free' vs. 'open'
   * some tend to be more technical oriented
   * Open Source happens as a side effect
-  * 'free' vs. 'open'
+  * target audience and/or owner
+
+
+## Can be defined as ...
+A group of people collaborating, sharing code, documentation and ideas
+  * while working together on Free / Open Source Software
+  * as a user, developer, evangelist, marketeer, salespeople, etc.
+
+
+## Collaboration
+
+  * working on a common goal
+  * interaction / communication
+
+
+## Every user
+is a potential contributor
+
+
+## Why do people participate
+
+  * innovation
+  * passion
+  * fun
+  * social
+  * status
+
+
+## Why do people participate
+
+  * work
+  * develop skills
+  * frustration
+  * missing information
+
+
+## Innovation
+
+  * "Every good work of software begins by scratchibf a developer's itch"
+    - Eric Raymond
+  * build on innovations of others
+
+
+## Structure
+
 
 
 ## Technical oriented
 
   * higher barrier to entry
   * heavier on process
+
+
+## Meritocracy
+
 
 
 ## OpenStack community
