@@ -45,6 +45,12 @@ A group of people collaborating, sharing code, documentation and ideas
 is a potential contributor
 
 
+## Technical oriented
+
+  * higher barrier to entry
+  * heavier on process
+
+
 ## Why do people participate
 
   * innovation
@@ -70,13 +76,15 @@ is a potential contributor
 
 
 ## Structure
+Who leads a project?
 
 
+## BDFL
+Benevolent Dictator for Life
 
-## Technical oriented
 
-  * higher barrier to entry
-  * heavier on process
+## Self-organizing
+Common goal
 
 
 ## Meritocracy
