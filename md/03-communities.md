@@ -88,12 +88,37 @@ Common goal
 
 
 ## Meritocracy
+A social system that gives power to people on the basis of their ability
 
 
+## OpenStack
+Open source software for creating private and public clouds
 
-## OpenStack community
 
-  * mission
+## OpenStack Mission
+
+  * Produce the ubiquitous
+    _Open Source Cloud Computing_ platform
+  * meet the needs
+    * public
+    * private clouds
+  * regardless of size
+  * simple to implement
+  * massively scalable
+
+
+## OpenStack Foundation
+
+  * An independent body providing shared resources
+  * Helps to achieve the _OpenStack Mission_
+    * Protecting
+    * Empowering
+    * Promoting
+
+  * OpenStack software and the community around it
+    * users
+    * developers
+    * entire ecosystem
 
 
 ## Contributing
