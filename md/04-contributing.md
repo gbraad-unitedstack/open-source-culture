@@ -3,6 +3,13 @@
 ### Contributing
 
 
+## Topics overview
+
+  * Issue reporting
+  * Asking questions
+  * Email guidelines
+
+
 ## What can you do?
 Contributing isn't about just code
 
@@ -64,17 +71,52 @@ Reporting issues
 ## Who will read?
 
   * Everybody who has the same problem and tries to understand whether
-    your defect also describes their problem
-  * Or whether your issue is one they like to vote for
-    * could be a feature
+    * Your defect also describes their problem
+    * Or whether your issue is one they like to vote for
+      * could be a feature
   * UX team member evaluating a feature request
   * RelEng evaluating if the defect is important enough to be included
     in a maintenance update.
 
 
-## Topics
+## Issue reporting
 
-  * Issue reporting
-  * Asking questions
-  * Email guidelines
+  * Reproducibility
+  * Specific
+
+
+## Issue reporting: template
+
+  * Prerequisites
+    * Versions used
+      * Including components and/or dependencies
+    * Settings
+  * Steps to reproduce
+  * Expected behavior
+  * Actual behavior
+
+
+## Issue reporting
+
+  * Examples
+    * 🙂 Good
+    * 🙁 Bad
+
+
+## Good reporting
+Good reporting 
+
+  * One problem - One issue
+  * Provide a meaningful summary
+  * Provide step-by-step descriptions
+  * Provide sample material
+  * Use Attachments where possible
+  * Put all relevant information into the issue
+
+[source](http://www.openoffice.org/qa/issue_handling/basic_rules.html)
+
+
+## Good reporting
+This means that you need to spend time on it. Preparation and effort you spend
+on reporting, can help in pinpointing the actual problem.
 
