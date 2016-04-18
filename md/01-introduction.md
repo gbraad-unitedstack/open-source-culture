@@ -260,13 +260,17 @@ licensing is often not ideal to allow re-use of the corein other projects
 
 ## What makes F/OSS projects more difficult
 
-  * Gender bias and stereotypes
-    * Male-dominated
-    * Female-unfriendly environment
   * Knowledge-sharing challenges
     * Lack of informal socialisation
     * weak team climate
     * lack of trust and respect
+
+
+## F/OSS can be unfriendly
+
+  * Gender bias and stereotypes
+    * Male-dominated
+    * Female-unfriendly environment
 
 
 ## Advantages of doing F/OSS
