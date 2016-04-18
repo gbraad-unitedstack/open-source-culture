@@ -99,8 +99,8 @@ Reporting issues
 ## Issue reporting
 
   * Examples
-    * 🙂 Good
-    * 🙁 Bad
+    * :-) Good
+    * :-( Bad
 
 
 ## Good reporting
