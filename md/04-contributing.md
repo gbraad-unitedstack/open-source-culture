@@ -104,7 +104,7 @@ Reporting issues
 
 
 ## Good reporting
-Good reporting 
+Follow the guidelines
 
   * One problem - One issue
   * Provide a meaningful summary
