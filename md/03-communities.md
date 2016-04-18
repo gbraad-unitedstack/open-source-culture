@@ -121,5 +121,21 @@ Open source software for creating private and public clouds
     * entire ecosystem
 
 
+## Understand OpenStack as a community
+
+  * foundation mission
+    * core values
+    * target audience
+
+
+## Customer as target audience
+
+  * enterprise need
+  * consultant listens
+  * task of the engineer
+
+Brige gap between community
+
+
 ## Contributing
 Continue to [Contributing](./04-contributing.html)

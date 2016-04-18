@@ -7,7 +7,7 @@
 Contributing isn't about just code
 
 
-## Getting involved
+## How to contribute
 
   * Become a tester
   * Write documentation
