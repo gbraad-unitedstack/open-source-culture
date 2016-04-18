@@ -29,18 +29,47 @@ Look for the 'getting started' document and try to install/use the software
 
 ## Tester
 
-  * testing approach
+  * Testing approach
     * ad-hoc
     * exploratory
 
 
 ## Tester
 
-  * report any issues you encounter
+  * Report any issues you encounter
   * ...
-  * advanced testcases
+  * Advanced testcases
     * hardware and software environments
 
+
+## Issues
+Reporting issues
+
+  * Missing or incorrect documentation
+  * Software not working as expected
+    * behavior
+
+
+## Who will read?
+
+  * Can be people in different roles
+    * users: operations, ...
+    * engineers: developers
+    * any person, or a combination of them
+  * Community members who perform triage on defects
+  * Developers who finally fix the defect
+  * QA engineer(s) who needs to verify the fix
+
+
+## Who will read?
+
+  * Everybody who has the same problem and tries to understand whether
+    your defect also describes their problem
+  * Or whether your issue is one they like to vote for
+    * could be a feature
+  * UX team member evaluating a feature request
+  * RelEng evaluating if the defect is important enough to be included
+    in a maintenance update.
 
 
 ## Topics
