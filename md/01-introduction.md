@@ -266,13 +266,6 @@ licensing is often not ideal to allow re-use of the corein other projects
     * lack of trust and respect
 
 
-## F/OSS can be unfriendly
-
-  * Gender bias and stereotypes
-    * Male-dominated
-    * Female-unfriendly environment
-
-
 ## Advantages of doing F/OSS
 
   * Purely technical requirement
@@ -294,6 +287,13 @@ Large projects enforce documentation and reviewing.
   * Open Design
   * Open Development
   * Open Community
+
+
+## F/OSS can be unfriendly
+
+  * Gender bias and stereotypes
+    * Male-dominated
+    * Female-unfriendly environment
 
 
 ## Cultural aspects
