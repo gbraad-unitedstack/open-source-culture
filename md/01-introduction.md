@@ -4,6 +4,7 @@
 
 
 ## What is Open Source
+What does 'openness' mean?
 
 
 ## History
@@ -279,6 +280,14 @@ licensing is often not ideal to allow re-use of the corein other projects
   * possibility of untested code
 
 Large projects enforce documentation and reviewing.
+
+
+## OpenStack and The Four Opens
+
+  * Open Source
+  * Open Design
+  * Open Development
+  * Open Community
 
 
 ## Cultural aspects
