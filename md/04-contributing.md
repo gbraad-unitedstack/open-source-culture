@@ -26,6 +26,13 @@ Contributing isn't about just code
   * Donate
 
 
+## How to contribute
+
+  * Code
+  * ...
+  * Code reviews
+
+
 ## Documentation
 The first encounter with a project is either the documentation and/or website
 
