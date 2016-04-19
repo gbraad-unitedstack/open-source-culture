@@ -3,6 +3,13 @@
 ### Git and Gerrit
 
 
+## Why we use these tools
+
+  * To encourage collaboration
+  * To get improvements to users faster
+    * Without sacrificing quality
+
+
 ## Overview
 You will learn the basic usage of git as a source management tool.
 
@@ -40,6 +47,7 @@ Linux kernel development is done as a large virtual global team
 
 
 ## Git basics
+Nearly all operations are local
 
 
 ## Make changes to review
