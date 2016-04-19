@@ -241,4 +241,22 @@ Email etiquettes will be discussed later in more detail.
   * Be courteous
     * “Please”
     * “Thanks for your attention”
+  * Go for quality
+    * avoid volume
 
+
+## Email etiquettes
+
+  * Don't send large attachements, such as screenshots
+    * upload them to a remote service
+    * prefer to use text format
+  * Do not use HTML formatting
+  * Allow for inline replying
+
+More information:
+
+  * Mailinglist etiquette  
+    https://wiki.openstack.org/wiki/MailingListEtiquette
+
+
+## Code contribution
