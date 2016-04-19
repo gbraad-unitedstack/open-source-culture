@@ -50,11 +50,53 @@ Linux kernel development is done as a large virtual global team
 Nearly all operations are local
 
 
+## Let's create a repository
+
+```
+$ mkdir awesome_project
+$ cd awesome_project
+$ git init
+Initialized empty Git repository in /home/gbraad/awesome_project/.git/
+```
+
+
+## What did just happen?
+The command `git init` created a `.git` folder which represent the state of
+your work directory and contains a local repository.
+
+
 ## The three states
 
   * Working directory
-  * Staging area
+  * Staging area or index
   * Local repository (.git)
+
+
+## Let's create our first change
+
+```
+$ echo "Hello, Git!" > hello
+$ git add hello
+$ git commit -m "Add hello file"
+[master (root-commit) ea80784] Add hello file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello
+```
+
+
+## What happened this time?
+We stored our first change
+
+```
+$ git log
+commit ea8078459e0c569b0d055cc7d580a40ef36f5337
+Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
+Date:   Tue Apr 19 07:47:56 2016 +0000
+
+    Add hello file
+```
+
+Note: (root-commit)
 
 
 ## Make changes to review
