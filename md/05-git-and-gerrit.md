@@ -99,6 +99,34 @@ Date:   Tue Apr 19 07:47:56 2016 +0000
 Note: (root-commit)
 
 
+## In more detail
+Let's prepare a new commit.
+
+```
+$ echo "!" >> hello
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   hello
+```
+
+Git tells you that there is a change that has not been staged yet.
+
+
+## Staging
+Git has a convenient staging area, which allows you to prepare a commit from
+changes you have.
+
+```
+$ git add hello
+```
+
+
+
+
 ## Make changes to review
 
   * [...]
