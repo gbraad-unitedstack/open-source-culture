@@ -24,3 +24,8 @@ And the usage of Gerrit for the review process.
   * git add [file]
   * git commit --amend
   * git review
+
+
+## Reference
+
+  * https://www.mediawiki.org/wiki/Gerrit/Tutorial
