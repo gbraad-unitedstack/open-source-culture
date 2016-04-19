@@ -135,5 +135,110 @@ Follow the guidelines
 This means that you need to spend time on it. Preparation and effort
 you spend on reporting, can help in pinpointing the actual problem.
 
+More details:
+
+  * How to Report Bugs Effectively  
+    http://www.chiark.greenend.org.uk/~sgtatham/bugs.html
+
 
 ## Bug triaging
+Assess quality of issue reports
+
+  * incomplete
+  * invalid
+  * wont fix
+  * duplicate
+
+
+## Bug triaging
+Deciding what bug should get fixed and when
+
+  * priority
+
+
+## Examples of bug tracking
+
+  * Red Hat's Bugzilla  
+    https://bugzilla.redhat.com/
+  * Mozilla's Bugzilla  
+    https://bugzilla.mozilla.org/
+  * Launchpad  
+    https://launchpad.net/
+
+
+## Asking questions
+When you ask a question, you are asking people to do you a favor.
+
+People have no reason to help you
+
+
+## Asking questions
+... but in general hackers (aka programmers) will happily do so provided you:
+
+  * show that you've done your homework
+  * ask nicely
+  * make it easy for them to understand what you need
+
+
+## Before you ask
+Try to find an answer
+
+  * forum or mailinglists
+  * Web (Google it)
+  * read the manual
+  * ...
+
+[source](http://catb.org/~esr/faqs/smart-questions.html)
+
+
+## Asking questions the smart way
+Choose the place carefully
+
+  * Ask OpenStack  
+    https://ask.openstack.org/
+  * Mailinglists  
+    https://wiki.openstack.org/wiki/Mailing_Lists  
+    https://lists.openstack.org/
+
+
+## Asking questions the smart way
+
+  * As part of an issue report
+
+Try to avoid private discussions
+
+  * IRC might be a better way
+
+
+## How to ask
+Similar to writing an issue report.
+
+Be specific...
+
+  * Use meaningful, specific subject headers
+  * Make it easy to reply
+  * Be precise
+    * environment
+  * Describe the problem's symptoms
+  * Steps you performed
+    * expectation
+
+
+## Don't
+
+  * Don't ask people to reply by private e-mail
+  * Turn off HTML formatting !
+  * Don't rush to claim that you have found a bug
+  * Don't flag your question as “Urgent”
+    * or describe “My company”
+
+Email etiquettes will be discussed later in more detail.
+
+
+## Do
+
+  * Follow up with a brief note on the solution
+  * Be courteous
+    * “Please”
+    * “Thanks for your attention”
+
