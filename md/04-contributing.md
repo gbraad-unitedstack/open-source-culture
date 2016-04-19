@@ -338,3 +338,6 @@ Your code is made public for review: http://review.openstack.org
 
 Follow-up and be involved in the review process and make changes when necessary.
 
+
+## Tools
+Continue to Tools: [Git and Gerrit](./05-git-and-gerrit.html)
