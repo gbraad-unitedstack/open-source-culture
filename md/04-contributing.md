@@ -275,9 +275,7 @@ Reference:
 ## Code reviews
 a good way to get familiar to the code and project
 
-http://review.openstack.org
-
-All code is reviewed before merge
+All code is reviewed using Gerrit before merge
 
   * -2 / -1 / 0 / +1 / +2
   * Worflow
@@ -285,7 +283,7 @@ All code is reviewed before merge
 
 
 ## Code contribution
-Let's talk about code.
+Let's talk about code
 
 
 ## Well, source contributions
@@ -297,10 +295,46 @@ Let's talk about code.
 All is review as source contributions
 
 
-## Requirements
+## Contributions
+
+  * When; roadmap or issue tracking
+    * incremental
+
+"Release Early, Release Often", this way you get feedback and
+progress tracking is possible.
+
+
+## OpenStack Blueprints
+Blueprints are used to track the implementation of significant features
+
+Current status is critical to the success of the release and the project
+as a whole
+
+
+## What you need to do
 
   * correctly working
     * Unit tests
   * coding style
     * PEP8
+  * run unitests
+
+
+## How to submit
+You need to understand git and git-review
+
+Will be discussed in a separate set of slides.
+
+Reference:
+
+  * http://docs.openstack.org/infra/manual/developers.html
+
+
+## What will happen now
+Your code is made public for review: http://review.openstack.org
+
+  * unit tests run
+    * indirect (gated)
+
+Follow-up and be involved in the review process and make changes when necessary.
 
