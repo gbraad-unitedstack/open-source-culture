@@ -50,6 +50,13 @@ Linux kernel development is done as a large virtual global team
 Nearly all operations are local
 
 
+## The three states
+
+  * Working directory
+  * Staging area
+  * Local repository (.git)
+
+
 ## Make changes to review
 
   * [...]
@@ -69,3 +76,4 @@ git push --force
 
   * https://www.mediawiki.org/wiki/Gerrit/Tutorial
   * https://git-scm.com/book/en/v2
+  * http://gitref.org/basic/
