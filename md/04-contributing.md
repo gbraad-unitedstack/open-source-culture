@@ -261,5 +261,21 @@ More information:
 
 ## Code reviews
 
+  * examination of source code
+  * to improve quality
+    * overlooked problems
+    * naming of variables
+
+Reference:
+
+  * Clean Code, Robert C. Martin
+  * Agile practices
+
+
+## Code reviews
+a good way to get familiar to the code and project
+
+http://review.openstack.org
+
 
 ## Code contribution
