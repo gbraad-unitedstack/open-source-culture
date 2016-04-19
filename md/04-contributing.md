@@ -56,6 +56,14 @@ Look for the 'getting started' document and try to install/use the software
     * hardware and software environments
 
 
+## Verification
+To verify something is not working correctly you need to look for
+information.
+
+  * Expected
+  * Actual
+
+
 ## Issues
 Reporting issues
 
@@ -124,6 +132,8 @@ Follow the guidelines
 
 
 ## Good reporting
-This means that you need to spend time on it. Preparation and effort you spend
-on reporting, can help in pinpointing the actual problem.
+This means that you need to spend time on it. Preparation and effort
+you spend on reporting, can help in pinpointing the actual problem.
 
+
+## Bug triaging
