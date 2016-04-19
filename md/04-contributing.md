@@ -277,5 +277,30 @@ a good way to get familiar to the code and project
 
 http://review.openstack.org
 
+All code is reviewed before merge
+
+  * -2 / -1 / 0 / +1 / +2
+  * Worflow
+  * Merged
+
 
 ## Code contribution
+Let's talk about code.
+
+
+## Well, source contributions
+
+  * python
+  * documentation
+  * configuration
+
+All is review as source contributions
+
+
+## Requirements
+
+  * correctly working
+    * Unit tests
+  * coding style
+    * PEP8
+
