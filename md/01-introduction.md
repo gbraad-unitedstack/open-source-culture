@@ -249,7 +249,7 @@ prevents knowledge assymmetry between project and provider and/or provider and c
 licensing is often not ideal to allow re-use of the corein other projects
 
 
-### What makes F/OSS projects more difficult
+## What makes F/OSS projects more difficult
 
   * Often involve global virtual teams
     * Cultural differences
