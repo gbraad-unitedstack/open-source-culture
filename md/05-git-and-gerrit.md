@@ -15,6 +15,8 @@ And the usage of Gerrit for the review process.
 
 
 ## What is version control
+also known as Source Control Management
+
 "The undo functionality for a developer"
 
 
@@ -24,6 +26,13 @@ And the usage of Gerrit for the review process.
   * git add [file]
   * git commit --amend
   * git review
+
+
+## Don't
+
+```
+git push --force
+```
 
 
 ## Reference
