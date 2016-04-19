@@ -43,3 +43,7 @@
 	color: white;
 	text-align: left;
 }
+
+.reveal .slides section {
+    height: 400px;
+}
