@@ -361,6 +361,147 @@ $ cat hello
     Goodbye, CVS!
 
 
+## Back to master
+
+```
+$ git checkout master
+```
+
+    Previous HEAD position was bf5d3d8... Say goodbye to cvs
+    Switched to branch 'master'
+
+
+## What is master / are branches
+Master is the name given to a branch. Branch names are pointers
+to a change inside the git repository.
+
+Branching in Git is a very cheap operation and initially exist
+locally.
+
+
+## Create a branch
+To create a branch from the current checkout you can
+
+```
+$ git branch cool-feature
+$ git checkout cool-feature
+```
+
+    Switched to branch 'cool-feature'
+
+or
+
+```
+$ git checkout -b cool-feature
+```
+
+
+## What just happened
+
+```
+$ git branch
+```
+
+    * cool-feature
+      master
+
+
+## Graph
+
+```
+$ git log --graph --all
+
+```
+    * commit 5ce4316680f4ece250f91d3157d552d2399b7150
+    | Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
+    | Date:   Wed Apr 20 07:16:43 2016 +0000
+    | 
+    |     I declare my preference
+    |  
+    * commit a4e6e0433c2863959d0613e233ed968a87da3516
+    | Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
+    | Date:   Wed Apr 20 07:15:41 2016 +0000
+    | 
+    |     Say goodbye to cvs
+    |  
+    * commit e52304db8b885a1217db2bcf0e2a2245959f61ee
+      Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
+      Date:   Wed Apr 20 07:15:03 2016 +0000
+      
+          Add hello file
+
+
+## Add some code
+
+```
+$ echo > hello << EOF
+> #include<stdio.h>
+> 
+> int main(void) {
+>     printf("Hello, World\n");
+>     return 0;
+> }
+> EOF
+$ mv hello hello.c
+```
+
+
+## What happened
+
+```
+$ git status
+```
+
+    On branch cool-feature
+    Changes not staged for commit:
+      (use "git add/rm <file>..." to update what will be committed)
+      (use "git checkout -- <file>..." to discard changes in working directory)
+    
+            deleted:    hello
+    
+    Untracked files:
+      (use "git add <file>..." to include in what will be committed)
+    
+            hello.c
+    
+    no changes added to commit (use "git add" and/or "git commit -a")
+
+
+## I need to add and remove
+
+```
+$ git rm hello
+$ git add hello.c
+```
+
+
+```
+$ git rm hello
+```
+
+    rm 'hello'
+
+```
+$ git add hello.c
+```
+
+
+## Result
+
+```
+$ git status
+```
+
+    On branch cool-feature
+    Changes to be committed:
+      (use "git reset HEAD <file>..." to unstage)
+    
+            deleted:    hello
+            new file:   hello.c
+
+Note: the files are so different that no comparing can be done
+
+
 ## Make changes to review
 
   * [...]
