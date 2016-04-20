@@ -39,7 +39,7 @@ also known as Source Control Management
 ## Git history
 "As with many great things in life, Git began with a bit of creative destruction
 and fiery controversy." -
-[Source](https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git)
+[source](https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git)
 
 Linux kernel development is done as a large virtual global team
 
@@ -56,8 +56,9 @@ Nearly all operations are local
 $ mkdir awesome_project
 $ cd awesome_project
 $ git init
-Initialized empty Git repository in /home/gbraad/awesome_project/.git/
 ```
+
+    Initialized empty Git repository in /home/gbraad/awesome_project/.git/
 
 
 ## What did just happen?
@@ -78,10 +79,11 @@ your work directory and contains a local repository.
 $ echo "Hello, Git!" > hello
 $ git add hello
 $ git commit -m "Add hello file"
-[master (root-commit) ea80784] Add hello file
- 1 file changed, 1 insertion(+)
- create mode 100644 hello
 ```
+
+    [master (root-commit) ea80784] Add hello file
+     1 file changed, 1 insertion(+)
+     create mode 100644 hello
 
 
 ## What happened this time?
@@ -89,12 +91,13 @@ We stored our first change
 
 ```
 $ git log
-commit ea8078459e0c569b0d055cc7d580a40ef36f5337
-Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
-Date:   Tue Apr 19 07:47:56 2016 +0000
-
-    Add hello file
 ```
+
+    commit ea8078459e0c569b0d055cc7d580a40ef36f5337
+    Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
+    Date:   Tue Apr 19 07:47:56 2016 +0000
+    
+        Add hello file
 
 Note: (root-commit)
 
@@ -104,14 +107,18 @@ Let's prepare a new commit.
 
 ```
 $ echo "Goodbye, CVS!" >> hello
-$ git status
-On branch master
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-        modified:   hello
 ```
+
+```
+$ git status
+```
+
+    On branch master
+    Changes not staged for commit:
+      (use "git add <file>..." to update what will be committed)
+      (use "git checkout -- <file>..." to discard changes in working directory)
+    
+            modified:   hello
 
 Git tells you that there is a change that has not been staged yet.
 
@@ -121,14 +128,15 @@ Always verify the changes you are going to commit
 
 ```
 $ git diff
-diff --git a/hello b/hello
-index 670a245..4be5eec 100644
---- a/hello
-+++ b/hello
-@@ -1 +1,2 @@
- Hello, Git!
-+Goodbye, CVS!
 ```
+
+    diff --git a/hello b/hello
+    index 670a245..4be5eec 100644
+    --- a/hello
+    +++ b/hello
+    @@ -1 +1,2 @@
+     Hello, Git!
+    +Goodbye, CVS!
 
 
 ## Staging
@@ -144,12 +152,12 @@ $ git add hello
 
 ```
 $ git status
-On branch master
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-        modified:   hello
 ```
+    On branch master
+    Changes to be committed:
+      (use "git reset HEAD <file>..." to unstage)
+    
+            modified:   hello
 
 
 ## Now make more changes
@@ -160,34 +168,36 @@ $ echo "Hello, Git! You rule!" > hello
 
 
 ## Now verify the changes
+
 ```
 $ git status
-On branch master
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-        modified:   hello
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-        modified:   hello
 ```
+    On branch master
+    Changes to be committed:
+      (use "git reset HEAD <file>..." to unstage)
+    
+            modified:   hello
+    
+    Changes not staged for commit:
+      (use "git add <file>..." to update what will be committed)
+      (use "git checkout -- <file>..." to discard changes in working directory)
+    
+            modified:   hello
 
 
 ## The diff compares staging and work directory
+
 ```
 $ git diff
-diff --git a/hello b/hello
-index 4be5eec..d198fd6 100644
---- a/hello
-+++ b/hello
-@@ -1,2 +1 @@
--Hello, Git!
--Goodbye, CVS!
-+Hello, Git! You rule!
 ```
+    diff --git a/hello b/hello
+    index 4be5eec..d198fd6 100644
+    --- a/hello
+    +++ b/hello
+    @@ -1,2 +1 @@
+    -Hello, Git!
+    -Goodbye, CVS!
+    +Hello, Git! You rule!
 
 
 ## Choices
@@ -202,43 +212,48 @@ index 4be5eec..d198fd6 100644
 
 ```
 $ git commit -m "Say goodbye to cvs"
-[master bf5d3d8] Say goodbye to cvs
- 1 file changed, 1 insertion(+)
 ```
- 
+
+    [master bf5d3d8] Say goodbye to cvs
+     1 file changed, 1 insertion(+)
+
 ```
 $ git log
-commit bf5d3d87f4b354851ef5f41ec4bfba3673c326fa
-Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
-Date:   Wed Apr 20 02:55:00 2016 +0000
-
-    Say goodbye to cvs
 ```
+
+    commit bf5d3d87f4b354851ef5f41ec4bfba3673c326fa
+    Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
+    Date:   Wed Apr 20 02:55:00 2016 +0000
+    
+        Say goodbye to cvs
 
 
 ## What happened
 
 ```
 $ cat hello
-Hello, Git! You rule!
 ```
+
+    Hello, Git! You rule!
 
 ```
 $ git show
-commit bf5d3d87f4b354851ef5f41ec4bfba3673c326fa
-Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
-Date:   Wed Apr 20 02:55:00 2016 +0000
-
-    Say goodbye to cvs
-
-diff --git a/hello b/hello
-index 670a245..4be5eec 100644
---- a/hello
-+++ b/hello
-@@ -1 +1,2 @@
- Hello, Git!
-+Goodbye, CVS!
 ```
+
+    commit bf5d3d87f4b354851ef5f41ec4bfba3673c326fa
+    Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
+    Date:   Wed Apr 20 02:55:00 2016 +0000
+    
+        Say goodbye to cvs
+    
+    diff --git a/hello b/hello
+    index 670a245..4be5eec 100644
+    --- a/hello
+    +++ b/hello
+    @@ -1 +1,2 @@
+     Hello, Git!
+    +Goodbye, CVS!
+
 
 The last can be done manually  with `git diff master`
 
@@ -246,64 +261,104 @@ The last can be done manually  with `git diff master`
 ## Choice 2
 ```
 $ git commit -m "I declare my preference"
-[master b8586e3] I declare my preference
- 1 file changed, 1 insertion(+), 1 deletion(-)
-gbraad:~/workspace/awesome_project (master) $ git log
-commit b8586e361918fe8343b906706a1aa579badec64f
-Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
-Date:   Wed Apr 20 03:01:37 2016 +0000
+```
 
-    I declare my preference
+    [master b8586e3] I declare my preference
+     1 file changed, 1 insertion(+), 1 deletion(-)
 
 ```
+$ git log
+```
+
+    commit b8586e361918fe8343b906706a1aa579badec64f
+    Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
+    Date:   Wed Apr 20 03:01:37 2016 +0000
+    
+        I declare my preference
+    
 
 ## What happened
 ```
 $ git show
-commit b8586e361918fe8343b906706a1aa579badec64f
-Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
-Date:   Wed Apr 20 03:01:37 2016 +0000
-
-    I declare my preference
-
-diff --git a/hello b/hello
-index 670a245..d198fd6 100644
---- a/hello
-+++ b/hello
-@@ -1 +1 @@
--Hello, Git!
-+Hello, Git! You rule!
 ```
+    commit b8586e361918fe8343b906706a1aa579badec64f
+    Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
+    Date:   Wed Apr 20 03:01:37 2016 +0000
+    
+        I declare my preference
+    
+    diff --git a/hello b/hello
+    index 670a245..d198fd6 100644
+    --- a/hello
+    +++ b/hello
+    @@ -1 +1 @@
+    -Hello, Git!
+    +Hello, Git! You rule!
+
 
 ## Choice 3
 
 ```
 $ git commit -m "Say goodbye to cvs"
-[master bf5d3d8] Say goodbye to cvs
- 1 file changed, 1 insertion(+)
+```
+
+    [master bf5d3d8] Say goodbye to cvs
+     1 file changed, 1 insertion(+)
+
+```
 $ git add hello
 $ git commit -m "I declare my preference"
-[master 89486a6] I declare my preference
- 1 file changed, 1 insertion(+), 2 deletions(-)
 ```
+
+    [master 89486a6] I declare my preference
+     1 file changed, 1 insertion(+), 2 deletions(-)
+
 
 ## What happened
 Both changes are commited. Use staging to your advantage to 'stage' partial changes.
 
 ```
 $ git log
-commit 89486a636f60477d04637306ff75f382e0bac166
-Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
-Date:   Wed Apr 20 03:05:57 2016 +0000
-
-    I declare my preference
-
-commit bf5d3d87f4b354851ef5f41ec4bfba3673c326fa
-Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
-Date:   Wed Apr 20 02:55:00 2016 +0000
-
-    Say goodbye to cvs
 ```
+
+    commit 89486a636f60477d04637306ff75f382e0bac166
+    Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
+    Date:   Wed Apr 20 03:05:57 2016 +0000
+    
+        I declare my preference
+    
+    commit bf5d3d87f4b354851ef5f41ec4bfba3673c326fa
+    Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
+    Date:   Wed Apr 20 02:55:00 2016 +0000
+    
+        Say goodbye to cvs
+
+
+## Move between commits
+
+```
+$ git checkout bf5d3d8   # or `git checkout master~1`
+```
+
+    Note: checking out 'bf5d3d8'.
+    
+    You are in 'detached HEAD' state. You can look around, make experimental
+    changes and commit them, and you can discard any commits you make in this
+    state without impacting any branches by performing another checkout.
+    
+    If you want to create a new branch to retain commits you create, you may
+    do so (now or later) by using -b with the checkout command again. Example:
+    
+      git checkout -b new_branch_name
+    
+    HEAD is now at bf5d3d8... Say goodbye to cvs
+
+```
+$ cat hello
+```
+
+    Hello, Git!
+    Goodbye, CVS!
 
 
 ## Make changes to review
