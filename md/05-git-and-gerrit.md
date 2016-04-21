@@ -409,26 +409,13 @@ $ git branch
 ## Graph
 
 ```
-$ git log --graph --all
+$ git log --oneline --graph --all
 
 ```
-    * commit 5ce4316680f4ece250f91d3157d552d2399b7150
-    | Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
-    | Date:   Wed Apr 20 07:16:43 2016 +0000
-    | 
-    |     I declare my preference
-    |  
-    * commit a4e6e0433c2863959d0613e233ed968a87da3516
-    | Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
-    | Date:   Wed Apr 20 07:15:41 2016 +0000
-    | 
-    |     Say goodbye to cvs
-    |  
-    * commit e52304db8b885a1217db2bcf0e2a2245959f61ee
-      Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
-      Date:   Wed Apr 20 07:15:03 2016 +0000
-      
-          Add hello file
+
+    * 5ce4316 I declare my preference
+    * a4e6e04 Say goodbye to cvs
+    * e52304d Add hello file
 
 
 ## Add some code
@@ -501,6 +488,71 @@ $ git status
 
 Note: the files are so different that no comparing can be done
 
+```
+$ git commit -m "Add Hello, C"
+```
+
+
+## What happened?
+I have a master branch, and cool-feature.
+
+Cool-feature is ahead by 1 change
+
+
+```
+  * ccd51d4 Add Hello, C
+ /
+* 5ce4316 I declare my preference
+* a4e6e04 Say goodbye to cvs
+* e52304d Add hello file
+```
+
+
+## Oops, I forgot to test
+I haven't merged yet... so, let's test.
+
+```
+$ gcc hello.c -o hello
+$ ./hello
+```
+
+    Hello World
+
+```
+$ git status
+```
+
+    Untracked files:
+        hello
+        
+
+## We do not want to check in binaries
+
+```
+$ vi .gitignore
+```
+
+    hello
+    <ESC>:wq
+
+Now check this with `git status` and add this file
+
+```
+$ git add .gitignore
+$ git commit -m "Add ignored files (hello)"
+```
+
+
+## Merge
+
+
+## Rebase
+
+
+## Squash
+
+
+## Review
 
 ## Make changes to review
 
