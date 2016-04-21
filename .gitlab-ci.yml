@@ -8,6 +8,7 @@ pages:
   - pandoc -t html5 --template template/reveal-slides-template.html --standalone --section-divs -o 03-communities.html ./md/03-communities.md
   - pandoc -t html5 --template template/reveal-slides-template.html --standalone --section-divs -o 04-contributing.html ./md/04-contributing.md
   - pandoc -t html5 --template template/reveal-slides-template.html --standalone --section-divs -o 05-git-and-gerrit.html ./md/05-git-and-gerrit.md
+  - pandoc -t html5 --template template/reveal-slides-template.html --standalone --section-divs -o 06-vim-editor.html ./md/06-vim-editor.md
   - mkdir .public
   - cp -r * .public
   - mv .public public

@@ -9,4 +9,4 @@
     * Email guidelines
   * Understand the tools you use
     * [Git and Gerrit](./05-git-and-gerrit.html)
-    * Vi / Vim
+    * [Vi / Vim](./06-vim-editor.html)
