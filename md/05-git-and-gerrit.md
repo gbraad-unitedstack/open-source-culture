@@ -535,7 +535,7 @@ $ vi .gitignore
     hello
     <ESC>:wq
 
-Now check this with `git status` and add this file
+Now check this with `git status` and add this ignore file
 
 ```
 $ git add .gitignore
@@ -544,12 +544,163 @@ $ git commit -m "Add ignored files (hello)"
 
 
 ## Merge
+With merging to bring two branches together.
+
+```
+$ git checkout master
+$ git merge cool-feature
+```
+
+    Updating 5ce4316..cf932b8
+    Fast-forward
+     .gitignore | 1 +
+     hello      | 1 -
+     hello.c    | 6 ++++++
+     3 files changed, 7 insertions(+), 1 deletion(-)
+     create mode 100644 .gitignore
+     delete mode 100644 hello
+     create mode 100644 hello.c
 
 
-## Rebase
+## What happened?
+
+```
+* master
+|\
+| * cf932b8 Add ignored files (hello)
+| * ccd51d4 Add Hello, C
+|/
+* 5ce4316 I declare my preference
+* a4e6e04 Say goodbye to cvs
+* e52304d Add hello file
+```
+
+Note: standard behavior is Fast-forward
 
 
-## Squash
+## What if we are behind?
+What if someone else has also worked on the code
+
+```
+* 2c80817 Add basic Hello, C
+| * cf932b8 Add ignored files (hello)
+| * ccd51d4 Add Hello, C
+|/
+* 5ce4316 I declare my preference
+* a4e6e04 Say goodbye to cvs
+* e52304d Add hello file
+```
+
+Master is now ahead with a new change that was merged
+
+
+## Back to the future
+Rewriting history to take place in the future.
+
+```
+$ git checkout cool-feature
+```
+
+    Switched to branch 'cool-feature'
+
+
+Get ready for conflicts
+
+
+## Resolve conflicts
+
+```
+$ git rebase master
+```
+
+    First, rewinding head to replay your work on top of it...
+    Applying: Add Hello, C
+    Using index info to reconstruct a base tree...
+    A       hello
+    Falling back to patching base and 3-way merge...
+    Auto-merging hello.c
+    CONFLICT (add/add): Merge conflict in hello.c
+    Failed to merge in the changes.
+    Patch failed at 0001 Add Hello, C
+    The copy of the patch that failed is found in:
+       /home/ubuntu/workspace/awesome_project/.git/rebase-apply/patch
+    
+    When you have resolved this problem, run "git rebase --continue".
+    If you prefer to skip this patch, run "git rebase --skip" instead.
+    To check out the original branch and stop rebasing, run "git rebase --abort".
+
+
+## Let's look at hello.c
+
+    #include<stdio.h>
+
+    int main(void) {
+    <<<<<<< HEAD
+        printf("Hello, World\n");
+    =======
+        printf("Hello World\n");
+        return 0;
+    >>>>>>> Add Hello, C
+    }
+
+
+We are told that there is a conflict from `<<<<<<< HEAD` to `=======`and
+from `=======` to `>>>>>>> Add Hello, C`.
+
+We edit the file till we think it is OK. leaving the `,` and the `return 0;`.
+
+
+## Confirm
+Make sure the code works; 'compile', 'run/test', and add resolved conflict.
+
+```
+$ git add hello.c
+$ git rebase --continue
+```
+
+    Applying: Add Hello, C
+    Applying: Add ignored files (hello)
+
+```
+$ git log --graph --oneline --all                                                                                                      
+```
+
+    * 066372d Add ignored files (hello)
+    * f0a97ce Add Hello, C
+    * 2c80817 Add basic Hello, C
+    * 5ce4316 I declare my preference
+    * a4e6e04 Say goodbye to cvs
+    * e52304d Add hello file
+
+
+## Merge these changes
+```
+$ git checkout master
+```
+
+    Switched to branch 'master'
+
+```
+$ git merge cool-feature
+```
+
+    Updating 2c80817..066372d
+    Fast-forward
+     .gitignore | 1 +
+     hello.c    | 1 +
+     2 files changed, 2 insertions(+)
+     create mode 100644 .gitignore
+
+Note: our change now only adds a `return 0;`
+
+
+## Why rebasing?
+The repository’s commit history is a record of what actually happened.
+
+The repository’s commit history is the story of how your project was made.
+
+
+## Advanced rebasing; squash
 
 
 ## Review
