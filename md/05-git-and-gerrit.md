@@ -351,6 +351,34 @@ $ git log
         Say goodbye to cvs
 
 
+## Choice 4
+
+```
+$ echo "Goodbye, CVS!" >> hello
+$ git add hello
+$ echo "Hello, Git! You rule!" > hello
+```
+
+```
+$ git reset -- hello
+```
+
+This unstages the file and leaves the latest content
+
+
+## For files in a commit
+The previous files didn't exist in the repository. If you want to get a file
+contents from a commit.
+
+```
+$ git reset HEAD hello
+```
+
+```
+$ git checkout -- hello
+```
+
+
 ## Move between commits
 
 ```
@@ -726,11 +754,13 @@ propose your changes for review.
 
 
 ## Make changes to review
+Make changes and resubmit for review
 
-  * [...]
-  * git add [file]
-  * git commit --amend
-  * git review
+```
+$ git add [file]
+$ git commit --amend
+$ git review
+```
 
 
 ## Don't
