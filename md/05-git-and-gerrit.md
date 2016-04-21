@@ -753,6 +753,46 @@ Gerrit is used to perform the code-reviews and `git review` is used to submit/
 propose your changes for review.
 
 
+## Workflow
+Create a topic branch
+
+```
+$ git checkout -b [branchname]
+```
+
+Code, code, code, commit
+```
+$ git commit
+```
+
+Write a great commit message
+
+  * descriptive title, max 50 chars
+  * concise, clear description. wrapped at 80 chars
+
+```
+$ git review
+```
+
+
+## What happens
+First time you have to set your gerrit username and make sure your `ssh`
+identity is known. I assume you have done this...
+
+    git review
+    remote: Processing changes: new: 1, refs: 1, done    
+    remote: 
+    remote: New Changes:
+    remote:   https://review.openstack.org/[reviewid] [Title]
+    remote: 
+    To ssh://gbraad@review.openstack.org:29418/openstack/[repo].git
+     * [new branch]      HEAD -> refs/publish/master/[branchname]
+
+
+## Gerrit
+Have a look at http://review.openstack.org/
+
+
 ## Make changes to review
 Make changes and resubmit for review
 
@@ -761,6 +801,9 @@ $ git add [file]
 $ git commit --amend
 $ git review
 ```
+
+Note: do not edit the `Change-Id` in the commit message. This is how Gerrit
+tracks patch sets to the same commit.
 
 
 ## Don't
