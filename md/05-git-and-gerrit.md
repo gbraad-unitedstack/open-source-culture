@@ -46,8 +46,25 @@ Linux kernel development is done as a large virtual global team
   * highly distributed
 
 
+## I assume you have this installed
+
+  * git
+  * git-review
+
+```
+$ sudo yum install git git-review
+```
+
+```
+$ sudo apt-get install git git-review
+```
+
+
 ## Git basics
-Nearly all operations are local
+Nearly all operations are local, performed on a local repository
+
+  * Fast and cheap actions
+  * Full history
 
 
 ## Let's create a repository
@@ -644,7 +661,7 @@ $ git rebase master
     }
 
 
-We are told that there is a conflict from `<<<<<<< HEAD` to `=======`and
+We are told that there is a conflict from `<<<<<<< HEAD` to `=======` and
 from `=======` to `>>>>>>> Add Hello, C`.
 
 We edit the file till we think it is OK. leaving the `,` and the `return 0;`.
@@ -700,10 +717,13 @@ The repository’s commit history is a record of what actually happened.
 The repository’s commit history is the story of how your project was made.
 
 
-## Advanced rebasing; squash
-
-
 ## Review
+In the case of OpenStack, we do not merge. We propose a change and rebase
+on top of master to make sure we are up-to-date
+
+Gerrit is used to perform the code-reviews and `git review` is used to submit/
+propose your changes for review.
+
 
 ## Make changes to review
 
