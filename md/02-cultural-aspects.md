@@ -1,6 +1,9 @@
 # Open Source Culture
 
 ### Cultural aspects
+Gerard Braad — 吉拉德
+
+gerard@unitedstack.com
 
 
 ## What makes F/OSS projects more difficult

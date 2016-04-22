@@ -1,6 +1,9 @@
 # Open Source Culture
 
 ### Git and Gerrit
+Gerard Braad — 吉拉德
+
+gerard@unitedstack.com
 
 
 ## Why we use these tools

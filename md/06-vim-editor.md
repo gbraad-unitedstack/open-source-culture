@@ -1,6 +1,9 @@
 # Open Source Culture
 
 ### Vim editor
+Gerard Braad — 吉拉德
+
+gerard@unitedstack.com
 
 
 ## What is Vim

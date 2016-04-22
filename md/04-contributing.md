@@ -1,6 +1,9 @@
 # Open Source Culture
 
 ### Contributing
+Gerard Braad — 吉拉德
+
+gerard@unitedstack.com
 
 
 ## Topics overview
