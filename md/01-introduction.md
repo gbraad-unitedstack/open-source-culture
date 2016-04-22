@@ -164,11 +164,11 @@ Became popular because it is entirely free and open-source software
 variants exist, but the ease of use of the components allowed rapid application development
 
 
-## Reasons for adotion
+## Reasons for adoption
 
   * lower cost
   * security
-  * no vendor 'lock in'
+  * prevent vendor 'lock-in'
   * better quality
 
 security and better quality comes from the idea 'given enough eyeballs, all bugs are shallow'.
@@ -183,7 +183,7 @@ Charged in the form of services or  support.
 Even if the source code is available at no charge, there is still a cost involved with maintenance and training of staff.
 
 
-## Vendor 'lockin'
+## Vendor 'lock-in'
 customer is dependent on a vendor for products and services
 
   * network equipment
@@ -241,15 +241,7 @@ Advantages to 'upstreaming'
   * Marketing
   * Trust and confidence
 
-prevents knowledge assymmetry between project and provider and/or provider and customer.
-
-
-## Open Core
-
-  * Open Source for the core
-  * Addons are commercially sold
-
-licensing is often not ideal to allow re-use of the corein other projects
+prevents knowledge asymmetry between project and provider and/or provider and customer.
 
 
 ## What makes F/OSS projects more difficult
@@ -290,6 +282,16 @@ Large projects enforce documentation and reviewing.
   * Open Design
   * Open Development
   * Open Community
+
+  * NOT Open Core
+
+
+## Open Core
+
+  * Open Source for the core
+  * Addons are commercially sold
+
+licensing is often not ideal to allow re-use of the core in other projects
 
 
 ## F/OSS can be unfriendly

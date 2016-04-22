@@ -6,9 +6,10 @@ This course is part of the training at UnitedStack and will introduce you to
 Open Source from different perspectives; such as:
 
   * where it came from
-  * what it means to software development, and
+  * what it means to software development
   * why companies/enterprises are looking at adoption
-     
+
+
 But the most important question for us what does Open Source really mean and how
 people contribute to a community that does Open Source software development. Our
 particular focus will be dealing with OpenStack contributions.
@@ -25,12 +26,17 @@ Please help to improve on this material by sending Pull or Merge Requests.
 More information can be found at: https://gitlab.com/gbraad/open-source-culture
 
 
-Authors
--------
+Author and contributors
+-----------------------
 
 | [!["Gerard Braad"](http://gravatar.com/avatar/e466994eea3c2a1672564e45aca844d0.png?s=60)](http://gbraad.nl "Gerard Braad <me@gbraad.nl>") |
 |---|
 | [@gbraad](https://twitter.com/gbraad)  |
+
+
+### Contributors
+
+  * Han Chao [UnitedStack]
 
 
 License

@@ -73,7 +73,7 @@ is a potential contributor
 
 ## Innovation
 
-  * "Every good work of software begins by scratchibf a developer's itch"
+  * "Every good work of software begins by scratching a developer's itch"
     - Eric Raymond
   * build on innovations of others
 
@@ -137,7 +137,7 @@ Open source software for creating private and public clouds
   * consultant listens
   * task of the engineer
 
-Brige gap between community
+Bridge gap between community
 
 
 ## Contributing
