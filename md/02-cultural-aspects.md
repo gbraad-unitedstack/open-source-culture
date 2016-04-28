@@ -1,7 +1,7 @@
 # Open Source Culture
 
 ### Cultural aspects
-Gerard Braad — 吉拉德
+Gerard Braad
 
 gerard@unitedstack.com
 

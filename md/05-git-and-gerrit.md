@@ -1,7 +1,7 @@
 # Open Source Culture
 
 ### Git and Gerrit
-Gerard Braad — 吉拉德
+Gerard Braad
 
 gerard@unitedstack.com
 

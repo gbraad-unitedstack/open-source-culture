@@ -1,7 +1,7 @@
 # Open Source Culture
 
 ### Introduction to Open Source
-Gerard Braad — 吉拉德
+Gerard Braad
 
 gerard@unitedstack.com
 
