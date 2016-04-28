@@ -1,12 +1,10 @@
 # Open Source Culture
 
-### Open Source Culture
+## Open Source Culture
 Gerard Braad
 
 gerard@unitedstack.com
 
-
-## Topics
 
   * [Introduction](./01-introduction.html), [PDF](./01-introduction.pdf)
   * [Cultural aspects](./02-cultural-aspects.html), [PDF](./02-cultural-aspects.pdf)
