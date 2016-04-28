@@ -114,7 +114,7 @@ $ git log
 ```
 
     commit ea8078459e0c569b0d055cc7d580a40ef36f5337
-    Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
+    Author: Gerard Braad <me@gbraad.nl>
     Date:   Tue Apr 19 07:47:56 2016 +0000
     
         Add hello file
@@ -242,7 +242,7 @@ $ git log
 ```
 
     commit bf5d3d87f4b354851ef5f41ec4bfba3673c326fa
-    Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
+    Author: Gerard Braad <me@gbraad.nl>
     Date:   Wed Apr 20 02:55:00 2016 +0000
     
         Say goodbye to cvs
@@ -261,7 +261,7 @@ $ git show
 ```
 
     commit bf5d3d87f4b354851ef5f41ec4bfba3673c326fa
-    Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
+    Author: Gerard Braad <me@gbraad.nl>
     Date:   Wed Apr 20 02:55:00 2016 +0000
     
         Say goodbye to cvs
@@ -291,7 +291,7 @@ $ git log
 ```
 
     commit b8586e361918fe8343b906706a1aa579badec64f
-    Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
+    Author: Gerard Braad <me@gbraad.nl>
     Date:   Wed Apr 20 03:01:37 2016 +0000
     
         I declare my preference
@@ -342,13 +342,13 @@ $ git log
 ```
 
     commit 89486a636f60477d04637306ff75f382e0bac166
-    Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
+    Author: Gerard Braad <me@gbraad.nl>
     Date:   Wed Apr 20 03:05:57 2016 +0000
     
         I declare my preference
     
     commit bf5d3d87f4b354851ef5f41ec4bfba3673c326fa
-    Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
+    Author: Gerard Braad <me@gbraad.nl>
     Date:   Wed Apr 20 02:55:00 2016 +0000
     
         Say goodbye to cvs
