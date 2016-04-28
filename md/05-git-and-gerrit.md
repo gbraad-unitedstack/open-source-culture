@@ -302,7 +302,7 @@ $ git log
 $ git show
 ```
     commit b8586e361918fe8343b906706a1aa579badec64f
-    Author: Gerard Braad — 吉拉德 <me@gbraad.nl>
+    Author: Gerard Braad <me@gbraad.nl>
     Date:   Wed Apr 20 03:01:37 2016 +0000
     
         I declare my preference
