@@ -18,6 +18,12 @@ At the end of this course you will understand the principles of communication,
 actions and tooling related to your work within and with the OpenStack community.
 
 
+Contents
+--------
+
+  * [Table of Contents](SUMMARY.md)
+
+
 Contribute
 ----------
 
